@@ -36,3 +36,15 @@ Por último, deverá ser feito um menu interativo com as seguintes ações imple
 
 ## Solução
 O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+
+## Implementação
+Foi feito o ajuste no código para utilizar padrões de arquitetura.
+As classes foram renomeadas para utilizar o idioma inglês.
+Foi feito um ajuste no arquivo DesafioFundamentos.csproj, para melhora na criação e validação do código fonte; integração de bibliotecas utilizadas pelas classes e geração de documentação.
+Arquitetura do projeto após as alterações:
+- documentation => contém a documentação gerada
+- Extensions    => Métodos de extensão para as classes String e Decimal
+- Models        => Contém a implemnetação da classe Estacionamento
+- Repositories  => Contém as classes para a manipulação de dados da classe Estacionamento
+- Resources     => Contém as classes com as mensagens utilizadas no sistema
+- Views         => Contém as classes que implementam a integração com o usuário
